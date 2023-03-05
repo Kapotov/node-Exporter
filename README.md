@@ -10,4 +10,5 @@ Node_exporter помещен в автозагрузку:
 ![2023-03-05_14-43-13](https://user-images.githubusercontent.com/123774335/222958748-d72cb51d-6e72-4d74-8fd0-b576324f954c.png)
 
 root@vagrant# vim /opt/node_exporter/node_exporter_options
+
 OPTIONS="--web.listen-address=":9100""
